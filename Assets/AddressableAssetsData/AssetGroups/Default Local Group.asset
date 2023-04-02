@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e4ba17dd9394ce94e80609946ef4972a
+  m_SerializeEntries:
+  - m_GUID: b6290fa0f4477bd4dbe40f41dc943bb9
+    m_Address: LoadingScreen
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d741912f539a9dc43b7576d33584d4ae
+    m_Address: Platform
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 702f4876020c03844bd533da580f5d5e
+    m_Address: PlayerConfig
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9ae1efa1f139e564a9b213f7409dcb12
+    m_Address: Player
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aa33a5141bcac70488fcda2f62118a22
+    m_Address: LevelAssets
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7ce78a057395cf54e8169b8cb3639b98
+    m_Address: PlatformsConfig
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 77371ab23716f9a468acc4d15416a02c
+    m_Address: LaunchPlatform
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cff69d96cda378545abc0ef412cf0e93
+    m_Address: PlatformsMover
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 39ea8ff70e7066c4aa752c93faa2901e
+    m_Address: UI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 5d5283450429371469ac916f1f8424e8, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6c63746def6e54042a85aec28b3ca1a8, type: 2}
+    - {fileID: 11400000, guid: 3a1f2f1e1adc16c4390c6d098dfe4f77, type: 2}

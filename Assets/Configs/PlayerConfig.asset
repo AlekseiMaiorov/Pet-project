@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9545e36f2ce249e484cca1326c57b53e, type: 3}
+  m_Name: PlayerConfig
+  m_EditorClassIdentifier: 
+  Settings:
+    JumpSpeed: 5
+    MaxAngularVelocity: 20
+    MaxSpeed: 10
+    TorqueSpeed: 10
+  SoundClips:
+    Jump: {fileID: 8300000, guid: 9e9d24464b1c8294b99e023bdb53cd69, type: 3}
+    Collision: {fileID: 8300000, guid: fc9b9c47351e2b046be6fe11e0d46fc9, type: 3}
+    Death: {fileID: 8300000, guid: 3573549c1df4fe843b29de0a14f89beb, type: 3}
+  SpawnPoint: {x: 0, y: 0.97, z: 0}
