@@ -25,19 +25,19 @@
 
 ### Игрок
 
-<img height="300" src="https://github.com/AlekseiMaiorov/Keep-Balance-Ball-3D/blob/6d5ae8ecd60ca81f897c1f583d6262c6152c8572/Readme_Images/3.PNG" title="Компоненты игрока"/>
+<img height="300" src="Readme_Images/3.PNG" title="Компоненты игрока"/>
 
 * Функционал игрока разделен по компонентам.
 * Компоненты инициализируются через методы `Construct` в `PlayerFactory`.
 * Передвижение игрока релизовано с использованием `Rigidbody`.
-* Пользовательский ввод работает через Input System (клавиатура и тачскрин).
+* Пользовательский ввод работает через Input System.
 * Настройки персонажа загружаются из конфига игрока.
 
-<img height="300" src="https://github.com/AlekseiMaiorov/Keep-Balance-Ball-3D/blob/6d5ae8ecd60ca81f897c1f583d6262c6152c8572/Readme_Images/5.PNG" title="Конфиг игрока"/>
+<img height="300" src="Readme_Images/5.PNG" title="Конфиг игрока"/>
 
 ### Платформы
 
-![](https://github.com/AlekseiMaiorov/Keep-Balance-Ball-3D/blob/6d5ae8ecd60ca81f897c1f583d6262c6152c8572/Readme_Images/4.gif)
+![](Readme_Images/4.gif)
 
 * За создание и инициализацию платформ отвечает `PlatformFactory`.
 * Платформы контролируются скриптом `PlatformMover`. 
@@ -46,7 +46,7 @@
 * Для управления перемещением платформ используется очередь `Queue<Platform>`.
 * Настройки платформ загружаются из конфига игрока.
 
-<img height="300" src="https://github.com/AlekseiMaiorov/Keep-Balance-Ball-3D/blob/6d5ae8ecd60ca81f897c1f583d6262c6152c8572/Readme_Images/2.PNG" title="Конфиг платформ"/>
+<img height="300" src="Readme_Images/2.PNG" title="Конфиг платформ"/>
 
 ### UI
 
